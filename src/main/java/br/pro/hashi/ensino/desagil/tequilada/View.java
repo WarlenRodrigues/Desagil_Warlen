@@ -23,14 +23,14 @@ public class View extends JPanel {
 	private Image cpuPlayerImage;
 	private Image humanPlayerImage;
 	private Image targetImage;
-
+	private Image gameOverImage;
 
 	public View(Model model) {
 		this.model = model;
 
 		cpuPlayerImage = loadImage("cpuPlayer");
 		humanPlayerImage = loadImage("humanPlayer");
-
+		gameOverImage = loadImage("gameOver");
 		targetImage = loadImage("target");
 
 		// Define o tamanho da componente, em pixels.
